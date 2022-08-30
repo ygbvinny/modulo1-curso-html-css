@@ -1,0 +1,101 @@
+Principais Formatações
+
+
+Negrito / Destaque
+
+Nesta frase um Termo em Negrito usando a tag B (Não Semântica)
+Nesta frase um Termo em Negrito usando a tag STRONG (Semântica).
+
+Itálico / Ênfase
+
+Nesta frase, temos um termo em itálico usando a tag I (não Semântica)
+Nesta frase, temos um termo em ênfase usando a tag EM (Semântica)
+
+
+Sempre que quiser dar destaque em uma palavra/frase, usar a tag <strong>
+Sempre que quiser dar ênfase em uma palavra/frase, usar a tag <em>
+
+Negrito e Italico são questões de forma no CSS.
+
+
+
+Texto Marcado
+
+Podemos Criar tabém um texto marcado usando a tag MARK.(Marcador) <mark>
+
+
+Texto Grande e Texto Pequeno
+
+Estamos criando um texto grande e um texto pequeno nesse parágrafo. <big> <small>
+
+
+
+Texto deletado
+Podemos marcar um texto como excluido para indicar que ele deve ser lido, mas nao considerado
+
+Texto Inserido
+Podemos marcar um texto como inserido para dar uma ênfase e indicar que ele foi adicionado depois. <ins>
+
+Existe também o sublinhado com a tag U (não semâtica) <u>
+
+
+
+Texto Sobrescrito
+Para inserir coisas do tipo x20+3 <sup>
+
+Texto Subscrito
+Para inserir coisas do tipo H2O <sub>
+
+
+
+
+
+Outras Formatações
+
+
+Código-fonte / Pré-Formatação
+
+O comando document.getElemntById ('Teste') é escrito em linguagem JavaScript. <code>
+serve pra colocar linguagem de codigos de uma forma que os navegadores mostrem em formato de codigo
+
+<pre>   
+    <code>  num = int(input("Digite um numero")
+            if num % 2 == 0:
+                print (f'0 número {num}) é IMPAR')
+            else:
+                 print (f'0 número {num}) é PAR')
+            print ('Fim do Programa')
+
+
+
+Abreviações
+
+Estou estudando HTML e CSS. Estou adorando! <abbr>
+serve pra marcação de texto e add uma abreviação do significado em um mini pop-up em cima do nome.
+
+
+
+
+Trabalhando com Listas
+
+Listas Ordenadas utilizando <ol> pra categorizar como uma lista e usar <li> no inicio de cada tarefa dalista, para contar a ordem automaticamente.
+(precisa estar dentro do <ol> order list)
+
+<ol>
+<li> Acordar
+<li> Tomar Café
+<li> Ligar pro casa
+<l1> Escovar os dentes
+
+
+   pra ordernar a lista por número ou ordem de letras, utilizando o type A,a,1,I. E indicando o a ordem que irá começar em start="5"
+         <ol type="1" start="5">
+
+
+
+Listas não Ordenadas utilizando o <ul> para adicionar um ponto preto do lado do nome, podendo usar modelos de pontos dfierentes.
+        <ul type="circle">   (tem a possibilidade de criar camadas de listas uma dentro da outra, utilizando <ol> dentro de cada <li>)
+
+* Pão
+* Leite
+* Tomate

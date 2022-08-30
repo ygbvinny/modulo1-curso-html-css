@@ -1,0 +1,33 @@
+Estilos Inline
+
+
+Pra mudar a cor de um capitulo ou paragrafo, é só utilizar dentro da tag h1/p o comando color
+ou background color pra mudar a cor atras daquele texto. Esse metodo Inline não é um metodo errado de estilizar os textos
+mais esse metodo nao vai ser muito utilizado no dia a dia. Para contruir o design, tem outras tecnicas.
+
+
+
+
+Estilos Locais / Internos
+
+
+Para mudar a cor de paragrafos ou capitulos, é mais pratico criar uma tag de <style> na parte de <head> logo após criar um body.
+
+Como ficaria o codigo?
+<head> <style> body{ h1/h2/p} dentro do body eu consigo mexer em cada h1/h2/p sem precisar ficar copiando e colando codigo em cada linha, sendo assim personalizando de 1 em 1.
+ 
+
+
+
+Estilos Externos
+
+É a melhor opção de se usar os estilos, pelo fato de vc montar todo um preset de como quer a pagina e depois so ir replicando nas outras paginas
+sem precisar ficar copiando todo o codigo e colando.
+
+Resumindo, para eu poder criar esse "PRESET" de estilos, basta eu abrir uma tag de <link:css> nomear o estilo da forma que eu preferir.
+
+Ex: "paragrafos.css" daí, dentro dessa pagina, começar a setar as configuraçoes de cor/tamanho da forma que eu quero.
+
+Detalhe: a tag link:css tem que ser posta na parte <head> do indice.
+
+Css externo é ideal pra varias paginas que iram ter o mesmo estilo.

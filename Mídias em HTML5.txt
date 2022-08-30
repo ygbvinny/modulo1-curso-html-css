@@ -1,0 +1,102 @@
+MÍDIAS EM HTML5
+
+
+Imagens Dinamincas
+
+elas vão se adaptando a largura da minha tela, seja ela celular/computador as imagens vao se adaptando com a largura da tela.
+
+
+utilizando a tag <picture>, dentro dessa tag fazemos o uso da tag <img> pra add imagens ao site e tentar dimensionar essas imagnes
+para que fique com o tamanho com em varios formatos diferentes, é essencial colocar imagens de tamanhos diferentes, para que se adapte
+a qual quer navegador ou dispositivo que o site esta sendo usado, para evitar a rolagem de scrool, utilizar 50px a mais do tamanho da imagem.
+
+através da tag <source media=> eu consigo determinar se quero o width min/max e colocar quantos pixels a minha imagem tem e por 50px a mais 
+pra evitar rolagem de scroll.
+
+logo após vem o srcset" que eu coloco a imagem, nao tem como usar o comando crtl+spaço pra abrir a lista de imagens da pasta, tem que digitar o nome da imagem m anual.
+depois vem o type=image/ que eu determino o tipo de imagem, se é png/jpeg e etc.
+
+um adendo importante tbm, é por a ordem de source em ordem do menor para o maior. ou seja, na linha de codigos a ordem de imagens começar do P  até o G.
+
+-----------------------------------
+
+
+Reproduzindo/Adicionando Áudios
+
+
+
+Como Reproduzir/Adicionar audios no HTML5 ?
+
+tags que vão ser utilizadas no processo.
+
+<audio> para adicionar o arquivo de audio
+<a> para fazer uma atribuição de arquivo de download
+
+
+Então como ficaria a linha de codigo pra reproduzir/adicionar audio?
+
+<audio preload="metadata" controls>
+     <source src="midia/flashes.mp3" type="audio/mp3">
+
+
+
+<!----- POR DENTRO DO CODIGO! -----!>
+
+<audio preload="metadata" controls> DENTRO DESSA TAG SERÁ ADD SOURCES QUE SERÃO ALTERNATIVAS.
+ |
+ |___"preload" irá "carregar" o arquivo. seguido de "metadata" faz com que o sistema tenha dados do arquivo de audio
+     |como data/duração do arquivo de audio. E o "controls" irá adicionar um player com função de dar play/pause no arquivo.
+
+
+<source src="midia/flashs.mp3" type="audio/mp3"> DENTRO DESSA TAG EU SELECIONO O AUDIO DESEJADO E O TIPO DE FORMATO QUE ELE É.
+ |
+ |__ "source" acompanhado de "src=" faz com que eu possa determinar qual midia eu quero no site. "type=" faz com que eu determine
+    |qual o tipo do audio, se ele é mp3/wav/ogg
+
+-------------------------------------------
+
+
+
+VIDEOS COM HTML5
+
+Interessante colocar todas as versões de video, seja elas mp4/mpeg/mkv para que todos os navegaores consiga reproduzir o video.
+Mais vale lembrar que hospedar varios videos, faz com que pese no bolso do cliente, pois precisa de mais espaço.
+
+
+
+Como Reproduzir/Adicionar Vídeos no HTML5 ?
+
+tags que vão ser utilizadas no processo.
+
+<video> para adicionar o arquivo de video
+<a> para fazer uma atribuição de arquivo de download
+
+
+
+Então como ficaria a linha de codigo pra reproduzir/adicionar video?
+
+<video width="500" poster="imagens/minha-capathumb.png" controls>
+     <source src="midia/meu-video.mp4" type="video/mp4">
+
+
+<!----- POR DENTRO DO CODIGO! -----!>
+
+<video width="500" poster="imagens/minha-capathumb.png" controls>
+|
+|__ "widht=" determina a largura que o video será mostrado no site, seguido de "poster=" que é usado pra add uma imagem de thumb
+   |  ao video e finalizando com "controls" que serve pra add controles ao video, botoes de play/pause/volume no video.
+
+
+<source src="midia/meu-video.mp4" type="video/mp4">
+|
+|__"source" acompanhado de "src=" faz com que eu possa determinar qual video eu quero no site. seguido de "type=" para selecionar
+   | qual tipo do video, se é mp4/ogg/mkv.
+
+-------------------------
+
+
+
+Inserindo Videos do Youtube
+
+Pra inserir video do youtube é bem tranquilo, basta ir no youtube e pegar o link de incorporação, pois ja vem todas as linhas de codigos necessarias
+e basta eu editar caso queira aumentar/diminuir o tamanho da largura do video no site.

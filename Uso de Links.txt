@@ -1,0 +1,33 @@
+Usando Links Externos
+
+
+Você pode acessar a minha música: "Natal Freestyle" <a href="LINK QUE VAI SER DIRECIONADO">
+
+Você também pode acessar o meu canal: "YGB VINNY" <a href="LINK QUE VAI SER DIRECIONADO">
+
+Pra abri o link em uma nova aba, tem que por a tag <a href="LINK QUE VAI SER DIRECIONADO" target="_blank">
+
+interessante usar a função de abrir link externo que direciona para outros sites, ai sim usar a funçao de abrir nova aba
+pra navegação dentro do proprio site, nao precisa abrir nova aba.
+
+
+
+
+
+Usando links Internos
+
+
+Está é a minha primeira pagina do site, se voce quiser pode acessar também a minha (Segunda Página) 
+<a href"pag002.html" rel="next">
+
+
+Voce também, pode acessar a nossa página de (Notícias) que está dentro de uma pasta secundaria dentro do site.
+<a href"noticial/pag003.html" rel="next">
+
+Para voltar pra pagina inicial, é necessario o uso de <a href"../index.html" rel="prev"
+para ir avançando de pagina, por "next" e para ir voltando, por "prev"
+
+
+
+
+Hiper Links / Link de Download
